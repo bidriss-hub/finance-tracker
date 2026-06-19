@@ -7,11 +7,6 @@
 - Sorting (date, amount, category)
 - LocalStorage persistence
 
-## Regex Rules
-- Description: /^[a-zA-Z0-9\s]{3,50}$/
-- Amount: /^\d+(\.\d{1,2})?$/
-- Category: /^[a-zA-Z\s]{2,20}$/
-- Date: /^\d{4}-\d{2}-\d{2}$/
 
 ## Keyboard
 - Tab navigation supported
@@ -20,8 +15,8 @@
 ## Setup
 Open index.html in browser
 
-## Tests
-Open tests.html
+## Video
+https://drive.google.com/file/d/1CxjBEhhlOjApHu0wcB6oftkBZIlJv_--/view?usp=sharing
 
 ## Deployment
-GitHub Pages link here
+[GitHub Pages link here](https://bidriss-hub.github.io/finance-tracker/)
