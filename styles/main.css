@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* layout */
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* sections */
+section {
+  background: #1e293b;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* inputs */
+input, select, button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* input style */
+input, select {
+  background: #334155;
+  color: #e2e8f0;
+}
+
+/* button */
+button {
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+/* list */
+#list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin: 8px 0;
+  background: #334155;
+  border-radius: 8px;
+}
+
+/* edit + delete buttons */
+.edit-btn {
+  background: #22c55e;
+  color: white;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* highlight search */
+mark {
+  background: #facc15;
+  color: black;
+  padding: 2px;
+  border-radius: 3px;
+}
